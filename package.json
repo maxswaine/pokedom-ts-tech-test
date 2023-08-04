@@ -1,16 +1,24 @@
 {
   "name": "pokedom-ts",
+  "author": "Max Swaine",
+  "homepage": "maxswaine.github.io/pokedom-ts-tech-test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "@types/canvas-confetti": "^1.6.0",
+    "gh-pages": "^5.0.0",
+    "sass": "^1.64.2",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "sass": "^1.64.2"
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.6.0"
   }
 }

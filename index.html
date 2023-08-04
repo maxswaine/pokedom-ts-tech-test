@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,8 +13,16 @@
     <title>PokéDom</title>
   </head>
   <body>
-    <body>
     <h1>PokéDom- gotta code 'em all!</h1>
+    <div class="filters">
+      <button class="button">Unleash the Pokemon!</button>
+      <label for="filter">Find Pokemon by Name:</label>
+      <input type="text" id="filter" class="filter" />
+      <label for="filterNumber">Find Pokemon by Number:</label>
+      <input type="text" id="filterNumber" class="filter" />
+      <label for="filterType">Find Pokemon by Type:</label>
+      <input type="text" id="filterType" class="filter" />
+    </div>
     <main class="card-container"></main>
     <script type="module" src="/src/main.ts"></script>
   </body>

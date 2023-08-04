@@ -1,3 +1,4 @@
+import { Pokemon } from "./types";
 export const pokemonArray: Pokemon[] = [
   {
     id: 1,
